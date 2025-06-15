@@ -22,7 +22,7 @@ vars.env
 *.env
 
 # Ignore data/output folders (optional)
-outputs/
+#outputs/
 data/
 
 # Mac OS

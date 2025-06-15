@@ -7,7 +7,9 @@ project_manager:
     '
   verbose: true
   allow_delegation: true
-  llm_model: anthropic/claude-3-haiku
+  llm_config:
+    model: anthropic/claude-3.5-sonnet
+    temperature: 0.5
 solution_architect:
   role: Solution Architect
   goal: Definire un'architettura tecnica efficace per il progetto
@@ -16,7 +18,9 @@ solution_architect:
     '
   verbose: true
   allow_delegation: true
-  llm_model: anthropic/claude-3-sonnet
+  llm_config: 
+    model: openai/gpt-4-turbo
+    temperature: 0.7
 technical_lead:
   role: Technical Lead
   goal: Fornire linee guida tecniche dettagliate al team
@@ -25,7 +29,9 @@ technical_lead:
     '
   verbose: true
   allow_delegation: true
-  llm_model: openchat/openchat-3.5
+  llm_config:
+    model: anthropic/claude-3.5-sonnet
+    temperature: 0.5
 frontend_developer:
   role: Frontend Developer
   goal: Sviluppare un'interfaccia utente responsiva e moderna
@@ -34,7 +40,9 @@ frontend_developer:
     '
   verbose: true
   allow_delegation: false
-  llm_model: meta-llama/llama-3-70b-instruct
+  llm_config:
+    model: anthropic/claude-3.5-sonnet
+    temperature: 0.5
 backend_developer:
   role: Backend Developer
   goal: Implementare logiche di business e i componenti di backend con soluzioni performanti
@@ -43,7 +51,9 @@ backend_developer:
     '
   verbose: true
   allow_delegation: false
-  llm_model: mistralai/mixtral-8x7b
+  llm_config:
+    model: anthropic/claude-3.5-sonnet
+    temperature: 0.5
 database_admin:
   role: Database Administrator
   goal: Progettare e gestire database efficienti e sicuri
@@ -52,7 +62,9 @@ database_admin:
     '
   verbose: true
   allow_delegation: false
-  llm_model: google/gemini-pro
+  llm_config:
+    model: google/gemini-pro-1.5
+    temperature: 0.5
 qa_engineer:
   role: QA and Test Engineer
   goal: Garantire la qualità del software attraverso test approfonditi
@@ -61,4 +73,6 @@ qa_engineer:
     '
   verbose: true
   allow_delegation: false
-  llm_model: deepseek-ai/deepseek-coder
+  llm_config:
+    model: anthropic/claude-3-haiku
+    temperature: 0.5

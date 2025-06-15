@@ -27,7 +27,6 @@ architecture_design:
     - Diagramma architetturale globale (es. diagramma a blocchi)
     - Componenti principali (moduli, servizi, classi principali) con tecnologie e linguaggi scelti per lo sviluppo (es. React, Node.js, Java, Python)
     - Relazioni e dipendenze
-    - Diagrammi UML (Class Diagram, Package Diagram)
     - Come il sistema sarà distribuito su server, dispositivi, cloud
     - Tecnologie usate per il deployment (Docker, Kubernetes, serverless, ecc.)
     - Modello dei dati
